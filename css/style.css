@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
 * {
 	font-family: 'Poppins', sans-serif;
+	
 }
+
 /* AWAL NAVBAR */
 navbar a{
     font-family: 'Poppins', sans-serif;
@@ -13,9 +15,24 @@ navbar a{
 }
 /* AKHIR NAVBAR */
 
+/* AWAL DARK MODE */
+.dark-mode {
+	background-color: #041C32;
+	color: #F7F5F2;
+  }
+
+.navbar button{
+	background-color: #0D6EFD;
+	border-radius: 10px;
+	border-color: transparent;
+	color: #F7F7F7;
+}
+
+/* AKHIR DARK MODE */
+
 /* AWAL CAROUSEL */
 .carousel-item {
-	height: 100vh;
+	max-height: 100vh;
 	min-height: 300px;
 }
 
@@ -54,10 +71,12 @@ navbar a{
 /* AKHIR ABOUT */
 
 
-
+/* AWAL PORTOFOLIO */
 .lead{
 	font-size:15px;
 }
+/* AKHIR PORTOFOLIO */
+
 /* AWAL TEAM */
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
